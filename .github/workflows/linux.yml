@@ -15,7 +15,7 @@ jobs:
     
     - name: install VS
       run: |
-        git clone https://github.com/vapoursynth/vapoursynth.git --branch R62
+        git clone https://github.com/vapoursynth/vapoursynth.git --branch R64
         cp -r vapoursynth/* .
     - name: Print compiler version
       run: ${{ env.CC }} --version
